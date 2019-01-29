@@ -1,0 +1,108 @@
+*{
+    /* Removes extra spacing from all elements on the page */
+    padding: 0;
+    margin: 0;
+}
+
+#left {
+	position: fixed;
+	left: 0px;
+	width: 25%;
+	height: 100%;
+	background-color:#f2f2f2;
+
+}
+
+#right{
+	background-color: white;
+	position: fixed;
+	right: 0px;
+	width: 75%;
+	height: 100%
+
+}
+
+#name{
+
+	position: fixed;
+	top: 20%;
+	right:40%;
+	left:40%;
+	z-index: 10;
+
+	color: black;
+
+
+}
+
+#des{
+	position: fixed;
+	height: 100px;
+	width: 500px;
+	top:40%;
+	bottom: 40%;
+	right:0px;
+	background-color: purple;
+	color: white;
+
+}
+
+#desc{
+	position: relative;
+	top:40%;
+	bottom:40%;
+	text-align: center;
+}
+
+#sign{
+	display: block;
+	position: fixed;
+    padding: 0;
+    margin: 0;
+	width: 80px;
+	left: 40px;
+	top: 50%
+
+
+
+}
+
+#log{
+	display: block;
+	position: fixed;
+	padding: 0;
+    margin: 0;
+	width: 80px;
+	left: 40px;
+	top: 42%
+	
+}
+
+#sign-in{
+	position: relative;
+	text-align: center;
+	top:40%;
+	bottom:40%;
+	background-color: white;
+	text-decoration-line: none;
+	
+	
+}
+
+#sign-up{
+	position: relative;
+	text-align: center;
+	top:40%;
+	bottom:40%;
+	background-color: white;	
+	text-decoration-line: none;
+}
+
+#line{
+	position: relative;
+	left:0px;
+	width: 6px;
+	height: 100%;
+	
+	background-color: purple;
+}

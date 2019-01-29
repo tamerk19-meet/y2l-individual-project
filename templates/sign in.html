@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+<head>
+    <title>log in for our website!</title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='addstyle.css') }}">
+</head>
+<body>
+    <center><h1>log in!</h1></center>
+    <form method="post" action= '/login'>
+        <center><input type="text" name="username" placeholder="Username" required> <br></center>
+        <center><input type="password" name="password" placeholder="password" required><br></center>
+        <center><input type="submit" value="Submit"></center>
+    </form>
+</body>
+</html>

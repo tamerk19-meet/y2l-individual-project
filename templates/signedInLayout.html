@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{% block title %} {% endblock %}</title>
+	{% block head %} {% endblock %}
+	{% block css %} <link rel="stylesheet" type="text/css" href="../static/css/signedinlayout.css">  {% endblock %}
+<body>
+{%block navbar%} 
+    <!-- <ul style="list-style-type:none"> -->
+    <div id="navbar">
+    <!-- <div class="nav" id="home_button"> -->
+	<a href="/" class="block" id="home_button"><p class="text">Home</p></a><!-- </div> -->
+    <!-- <div id="random"> --><a href="/random_suggestions" class="block" id="random"><p class="text">Random</p></a><!-- </div>  -->
+    <!-- <div id="logout"> --><a href="/Logout" class="block" id="logout"><p class="text">Log Out</p></a><!-- </div> --> 
+
+</div> 
+<!-- </ul> -->
+{%endblock%}	
+{% block body %} {% endblock %}
+
+</body>
+</html>

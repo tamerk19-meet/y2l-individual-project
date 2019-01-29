@@ -1,0 +1,10 @@
+{% extends 'signedInLayout.html' %}
+{% block body %}
+<form method="POST" action="/addsong">
+	<center><input type="text" name="Name" placeholder="Name" required> <br></center>
+	<center><input type="text" name="Artist" placeholder="Artist" required> <br></center>
+	<center><input type="text" name="Year" placeholder="Year" required> <br></center>
+	<center><input type="text" name="Album" placeholder="Album" required></center>
+	<center><input type="submit" value="Submit"></center>
+</form>
+{% endblock %}

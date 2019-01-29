@@ -1,0 +1,10 @@
+{% extends 'signedInLayout.html' %}
+{% block body %}
+
+	
+	<div id="gradient">
+	{% for song in song_list%}
+	<div class="name">{{song.name}}</div> 
+	{%endfor%}
+	</div>
+{% endblock %}
