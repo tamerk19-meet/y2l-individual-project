@@ -3,18 +3,23 @@
 <link rel="stylesheet" type="text/css" href="../static/css/signedinlayout.css"> {% endblock%}
 {% block body %}
 	<div id="profile">
+	<div id="line"></div>	
 	<p id="name"><h1>{{user1.username}}</h1></p>
-	<a class="Button" href="/addsong" id="add-song"><p id="add_song">Add a song</p></a>
+	<a class="Button" href="/addsong" id="add-song"><div id="add_song">Add a song</div></a>
 <!-- 	<a class="Button" href="/Logout" id="log-out"><p id="log_out">Log Out</p></a> -->
 	</div>
 
 	<div id="playlist">
 		<!-- loop that writes the songs and their info, using the database -->
-	</div>
+	
 
 	<div id="gradient">
+	<div id="Bbar">	
 	{% for song in song_list%}
 	<div class="name">{{song.name}}</div> <div class="artist">{{song.artist}}</div> <div class="album">{{song.album}}</div> <div class="year">{{song.year}}</div> <br><br>
 	{%endfor%}
 	</div>
+	</div>
+	</div>
+
 {% endblock %}

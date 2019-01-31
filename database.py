@@ -9,7 +9,7 @@ DBSession = sessionmaker(bind=engine)
 session = DBSession()
 Base = declarative_base()
 
-RANDOM_SONG_NUMBER = 2
+RANDOM_SONG_NUMBER = 20
 
 
 

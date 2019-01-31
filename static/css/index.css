@@ -37,12 +37,12 @@
 
 #des{
 	position: fixed;
-	height: 100px;
-	width: 500px;
+	height: 150px;
+	width: 550px;
 	top:40%;
 	bottom: 40%;
 	right:0px;
-	background-color: purple;
+	background-color: #b300b3;
 	color: white;
 
 }
@@ -55,54 +55,77 @@
 }
 
 #sign{
+	height: 40px;
+
+	text-decoration: none;
 	display: block;
-	position: fixed;
+	position: relative;
     padding: 0;
     margin: 0;
 	width: 80px;
-	left: 40px;
+	left: 40%;
+	right: 40%;
 	top: 50%
-
-
-
 }
 
 #log{
+	height: 40px;
+	background-color: white;
+	text-decoration: none;
 	display: block;
-	position: fixed;
+	position: relative;
 	padding: 0;
     margin: 0;
 	width: 80px;
-	left: 40px;
-	top: 42%
+	left: 40%;
+	right: 40%;
+	top: 42%;
+/*	bottom: 42%;*/
+
 	
 }
 
 #sign-in{
+/*	height: 40px;*/
 	position: relative;
 	text-align: center;
-	top:40%;
-	bottom:40%;
+	top:42%;
+	bottom:42%;
 	background-color: white;
 	text-decoration-line: none;
+	text-decoration: none;
 	
 	
 }
 
 #sign-up{
+	height: 30px;
 	position: relative;
 	text-align: center;
 	top:40%;
 	bottom:40%;
 	background-color: white;	
 	text-decoration-line: none;
+	text-decoration: none;
 }
 
-#line{
+#vert{
 	position: relative;
 	left:0px;
 	width: 6px;
 	height: 100%;
 	
-	background-color: purple;
+	background-color: #b300b3;
+	opacity: 0.8;
+}
+
+#hor{
+	position: fixed;
+	left:0px;
+	width: 100%;
+	height: 6px;
+	top:93%;
+	
+	background-color: #b300b3;
+	opacity: 0.8;
 }

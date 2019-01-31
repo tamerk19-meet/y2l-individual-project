@@ -1,10 +1,15 @@
 {% extends 'signedInLayout.html' %}
+
+{% block css %}<link rel="stylesheet" type="text/css" href="../static/css/random.css">
+ <link rel="stylesheet" type="text/css" href="../static/css/signedinlayout.css">   {% endblock %}
+
 {% block body %}
+
 
 	
 	<div id="gradient">
 	{% for song in song_list%}
-	<div class="name">{{song.name}}</div> 
+	<div id="name">{{song.name}}</div> <br>
 	{%endfor%}
 	</div>
 {% endblock %}

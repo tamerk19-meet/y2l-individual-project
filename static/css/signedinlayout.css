@@ -5,6 +5,7 @@
 	height: 100%;
 	right: 0px;
 	background-color: black;
+	border-left: 1px solid white;
 }
 /*.nav{
 	text-align: center;
@@ -21,27 +22,39 @@
 	position: relative;
 	top: 40px;
 	height: 50px;
-	z-index: 2;
-	border-style: solid;
-	border-width: 1px;
-	border-color: white;
-		text-decoration-line: none;
+	z-index: 3;
+
+	top-border-style: solid;
+	top-border-width: 1px;
+	top-border-color: white;
+
+	bottom-border-style: solid;
+	bottom-border-width: 1px;
+	bottom-border-color: white;
+
+	text-decoration-line: none;
 	text-decoration: none;
-	background-color: white;
+	background-color: black	;
 }
-#logout{
+
+
+/*#random:hover{
+	background-color: grey;
+
+}
+*/#logout{
 	display: block;
 	text-align: center;
 	position: relative;
 	top: 80px;
 	height: 50px;	
 	z-index: 2;
-	border-style: solid;
+/*	border-style: solid;
 	border-width: 1px;
-	border-color: white;
+	border-color: white;*/
 		text-decoration-line: none;
 	text-decoration: none;
-	background-color: white;
+	background-color: black;
 }
 
 #home_button{
@@ -51,15 +64,15 @@
 	top: 0px;
 	height: 50px;
 	z-index: 2;
-	border-style: solid;
+/*	border-style: solid;
 	border-width: 1px;
-	border-color: white;
+	border-color: white;*/
 		text-decoration-line: none;
 	text-decoration: none;
-	background-color: white;
+	background-color: black;
 }
-/*
-.text{
+
+p {
 	top: 40%;
-	bottom: 45%;
-}*/
+	bottom: 40%;
+}
