@@ -9,7 +9,7 @@
 	
 	<div id="gradient">
 	{% for song in song_list%}
-	<div id="name">{{song.name}}</div> <br>
+	<div id="name">{{song.name}}</div>  <div class="artist">{{song.artist}}</div> <div class="album">{{song.album}}</div> <div class="year">{{song.year}}</div>s <br>
 	{%endfor%}
 	</div>
 {% endblock %}

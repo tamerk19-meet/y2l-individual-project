@@ -1,10 +1,58 @@
 #name{
+	color: white;
 	position: fixed;
-	left:5px;
-	width: 120px;
+	left:0px;
+	width: 23%;
 	/*height: 40px;	*/
-	background-color: white;
+	/*background-color: white;*/
 	text-align: center;
-	border: 1px solid black ;
+	border: 1px solid white ;
+
 	
+}
+
+
+.artist{
+	color: white;
+	position: fixed;
+	width:23%;
+	/*height:24px;*/
+	left:23%;
+	text-align: center;
+	text-align: center;
+	border-style: solid;
+	border-width: 1px;
+	border-color: white;
+}
+.album{
+	color: white;
+	position: fixed;
+	width:23%;
+	/*height:24px;*/
+	left:46%;
+	text-align: center;
+	text-align: center;
+	border-style: solid;
+	border-width: 1px;
+	border-color: white;
+}
+.year{
+	color: white;
+	position: fixed;
+	width:23%;
+	/*height:24px;*/
+	left:69%;
+	text-align: center;
+	text-align: center;
+	border-style: solid;
+	border-width: 1px;
+	border-color: white;
+}
+
+#gradient{
+	position: fixed;
+	width: 92%;
+	height: 100%;
+	left: 0px;
+	background-image: linear-gradient(to bottom, black , #b300b3);
 }
